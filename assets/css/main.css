@@ -1208,6 +1208,54 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Assets Section
+--------------------------------------------------------------*/
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.asset {
+  display: inline-flex;
+  align-items: center;
+  gap: 0 5px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em;
+  background-color: #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 9px 12px;}
+
+.asset a {
+  align-items: center;
+  gap: 0 5px;
+  display: inline-flex;
+}
+
+.asset-image {
+  height: 33px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+.asset-name {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.asset-more-info {
+  font-size: 10px;
+  margin-bottom: 0;
+  color: #9f9f9f;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
 .cta {
